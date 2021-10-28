@@ -80,11 +80,14 @@ print(avg_qty)
 
 print('-------------QUESTION 6----------------------')
 
+
 check_qty = produce[(produce > 11500) & (produce < 12000)]
 print(check_qty.T)
 
 
 print('-------------QUESTION 7----------------------')
 
-check_qty = produce.loc['Total Sale'].sum()
-print(check_qty)
+print(check_qty.loc['Total Sale'].sum())
+
+#check_qty = produce.loc['Total Sale'].sum()
+# print(check_qty)
